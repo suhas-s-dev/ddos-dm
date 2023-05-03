@@ -15,7 +15,7 @@ import random
 
 '''
 
-TEST_TIME = 300 #seconds
+TEST_TIME = 60 #seconds
 TEST_TYPE = "normal"
 #normal, attack, manual
 
