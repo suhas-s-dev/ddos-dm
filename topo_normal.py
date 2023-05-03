@@ -53,7 +53,7 @@ if __name__ == '__main__':
     net.start()
 
     if TEST_TYPE == "normal":
-        print "Generating NORMAL Traffic......."
+        print("Generating NORMAL Traffic.......")
         h1 = net.get('h1')
         cmd1 = "bash normal.sh &"
         h1.cmd(cmd1)
@@ -97,7 +97,7 @@ if __name__ == '__main__':
         sleep(TEST_TIME)
         net.stop()
     elif TEST_TYPE == "attack":
-        print "Generating ATTACK Traffic......."
+        print("Generating ATTACK Traffic.......")
         h1 = net.get('h1')
         cmd1 = "bash attack.sh &"
         h1.cmd(cmd1)
