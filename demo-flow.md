@@ -1,7 +1,7 @@
 ## Before
 ### Cleanup Mininet Topology
 ```
-sudo mn-c
+sudo mn -c
 ```
 
 ### Remove Old results
